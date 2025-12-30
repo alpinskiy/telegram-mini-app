@@ -1,12 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TON Connect Mini App</title>
     <link rel="stylesheet" href="styles.css">
     <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+    <script async src="/telegram-mini-app/index.js" onload="initAnalytics()" type="text/javascript"></script>
+    <script>
+        function initAnalytics() {
+            window.telegramAnalytics.init({
+                token: 'eyJhcHBfbmFtZSI6IlRhcHBzQ2VudGVyIiwiYXBwX3VybCI6Imh0dHBzOi8vdGFwcHNjZW50ZXIub3JnLyIsImFwcF9kb21haW4iOiJodHRwczovL3RhcHBzY2VudGVyLm9yZy8ifQ==!PlQ1VPVphIctWCwVBvU3cirOzbMEOYpgfPMgntcq2sM=',
+                appName: 'TappsCenter',
+            });
+        }
+    </script>
 </head>
+
 <body>
     <div class="container">
         <h1>TON Connect Mini App</h1>
@@ -26,5 +37,5 @@
     </div>
     <script src="app.js"></script>
 </body>
-</html>
 
+</html>
