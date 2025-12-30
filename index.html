@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TON Connect Mini App</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/@tonconnect/ui@latest/dist/tonconnect-ui.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>TON Connect Mini App</h1>
+        <div id="ton-connect"></div>
+        <div id="connection-info" class="connection-info hidden">
+            <h2>Connection Info</h2>
+            <div class="info-item">
+                <strong>Wallet:</strong> <span id="wallet-name">-</span>
+            </div>
+            <div class="info-item">
+                <strong>Address:</strong> <span id="wallet-address">-</span>
+            </div>
+            <div class="info-item">
+                <strong>Chain:</strong> <span id="wallet-chain">-</span>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
+
