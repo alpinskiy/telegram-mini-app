@@ -1,6 +1,6 @@
 // Initialize TON Connect UI
 const tonConnectUI = new TON_CONNECT_UI.TonConnectUI({
-    manifestUrl: 'https://localhost:8080/tonconnect-manifest.json',
+    manifestUrl: 'https://alpinskiy.github.io/telegram-mini-app/tonconnect-manifest.json',
     buttonRootId: 'ton-connect',
 });
 

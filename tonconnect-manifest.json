@@ -1,8 +1,7 @@
 {
-    "url": "http://localhost:8080/",
+    "url": "https://alpinskiy.github.io/telegram-mini-app/",
     "name": "TON Connect Mini App",
-    "iconUrl": "http://localhost:8080/icon.png",
-    "termsOfUseUrl": "http://localhost:8080/terms-of-use.txt",
-    "privacyPolicyUrl": "http://localhost:8080/privacy-policy.txt"
+    "iconUrl": "https://alpinskiy.github.io/telegram-mini-app/icon.png",
+    "termsOfUseUrl": "https://alpinskiy.github.io/telegram-mini-app/terms-of-use.txt",
+    "privacyPolicyUrl": "https://alpinskiy.github.io/telegram-mini-app/privacy-policy.txt"
 }
-
